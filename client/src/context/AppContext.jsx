@@ -6,7 +6,7 @@ const AppContext = createContext();
 
 const AppContextProvider = ({ children }) => {
     const navigate = useNavigate();
-    const backendUrl = (import.meta.env.VITE_API_URL || "http://localhost:5174").replace(/\/$/, "");
+    const backendUrl = (import.meta.env.VITE_API_URL || "http://localhost:5175").replace(/\/$/, "");
 
     // --- State Management ---
     const [userData, setUserData] = useState(null);
