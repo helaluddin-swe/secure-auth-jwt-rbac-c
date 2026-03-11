@@ -21,6 +21,8 @@ const Home = () => {
   const getInitials = (name) => name ? name.split(' ').map(n => n[0]).join('').toUpperCase() : '??';
 
   return (
+    <>  
+  
     <div className="min-h-screen  bg-[#020617] text-white font-sans">
       {/* --- HERO SECTION --- */}
       <section className="relative pt-20 pb-16 px-4 overflow-hidden">
@@ -115,6 +117,7 @@ const Home = () => {
         </section>
       )}
     </div>
+    </>
   );
 };
 

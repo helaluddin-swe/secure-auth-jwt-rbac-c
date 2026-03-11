@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Helmet } from "react-helmet-async";
 
 const MetaSeo = ({ seoData, contentHeader, articleBody }) => {
@@ -25,7 +25,7 @@ const MetaSeo = ({ seoData, contentHeader, articleBody }) => {
 
   return (
     <Helmet>
-      <title>{title.slice(0,76)}</title>
+      <title>{title.slice(0,60)}</title>
       <meta name="description" content={description.slice(0,155)} />
       <meta name="keywords" content={keywords} />
       <link rel="canonical" href={canonicalUrl} />
