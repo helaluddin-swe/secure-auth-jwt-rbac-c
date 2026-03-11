@@ -4,6 +4,7 @@ const bcrypt = require("bcryptjs");
 const User = require("../models/AuthModel");
 
 
+
 // Helper to generate consistent tokens
 const generateToken = (user, expires = '7d') => {
   return jwt.sign(
