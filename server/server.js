@@ -18,7 +18,7 @@ connectDB();
 
 // --- CORS Configuration ---
 const allowedOrigins = [
-  "https://auth-server-mauve.vercel.app", 
+  "https://auth-client-omega-three.vercel.app", 
   "http://localhost:5173", 
 
 ];
