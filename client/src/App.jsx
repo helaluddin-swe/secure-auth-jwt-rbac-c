@@ -13,10 +13,11 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <div className='flex flex-col justify-between min-h-screen'>
-      <Toaster position="top-right" reverseOrder={false} />
+     
       <Navbar/>
 
 <div className='pt-12'> 
+   <Toaster position="top-right" reverseOrder={false} />
       <Routes>
       
         {/* PUBLIC ROUTES (No login required)          */}
